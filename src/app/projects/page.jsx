@@ -19,7 +19,7 @@ const ProjectPage = () => {
   ];
 
   return (
-    <div className="mt-10 min-h-screen bg-gray-100 flex flex-col items-center text-center p-8">
+    <div className="mt-20 min-h-screen bg-gray-100 flex flex-col items-center text-center p-8">
       <h1 className="text-4xl font-bold text-gray-900">My Projects</h1>
       <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
         Here are some of the projects I have worked on. Feel free to explore!

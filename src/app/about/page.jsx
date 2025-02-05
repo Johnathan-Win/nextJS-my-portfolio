@@ -1,10 +1,8 @@
 'use client';
-import Navbar from '../components/Navbar';
 
 const AboutPage = () => {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center text-center">
-      <Navbar />
       <div className="my-20 max-w-3xl p-8 bg-white shadow-xl rounded-xl">
         <h1 className="text-4xl font-bold text-gray-900">About Me</h1>
         <p className="mt-4 text-lg text-gray-600">
