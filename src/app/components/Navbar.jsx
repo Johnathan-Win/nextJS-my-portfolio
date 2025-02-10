@@ -27,13 +27,13 @@ const Navbar = () => {
         <h1 className="text-2xl font-bold tracking-wide mr-10">{myName}</h1>
         
         {/* เมนู */}
-        <ul className={`md:flex space-x-6 ${isMenuOpen ? 'flex' : 'hidden'} md:block absolute md:static top-full left-0 w-full bg-gray-900 md:bg-transparent`}>
+        <ul className={`md:flex space-x-0 ${isMenuOpen ? 'flex' : 'hidden'} md:block absolute md:static top-full left-0 w-full bg-gray-900 md:bg-transparent`}>
           {navItems.map((item) => (
             <li key={item.href} className="w-full text-center md:w-auto">
               <Link
                 href={item.href}
                 className={`text-lg font-medium transition duration-300 hover:text-blue-400 px-4 py-2 block ${pathname === item.href ? 'border-b-2 border-blue-400' : ''}`}
-                onClick={item.href === item.href  ? handleMenuClose : undefined} // ปิดเมนูเมื่อกดเลือก 'Home' หรือ 'Contact'
+                onClick={item.href === item.href  ? handleMenuClose : undefined} // ปิดเมนูเมื่อกดเลือก 'Home' หรือ 'Contact' อื่นๆ
               >
                 {item.name}
               </Link>
