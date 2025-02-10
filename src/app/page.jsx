@@ -16,7 +16,7 @@ const Home = () => {
 
         {/* ชื่อ */}
         <h1 className="text-4xl font-bold text-gray-900">
-          Thanathong Saengwang
+          Thanathon Saengwang
         </h1>
 
         {/* ประวัติสั้น */}
