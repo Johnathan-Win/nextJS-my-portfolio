@@ -21,7 +21,7 @@ const Home = () => {
 
         {/* ประวัติสั้น */}
         <p className="mt-4 text-lg text-gray-600">
-          Hi, I'm Thanathong Saengwang. I'm a passionate developer specializing
+          Hi, I'm Thanathon Saengwang. I'm a passionate developer specializing
           in modern web technologies like React, Next.js, and more. I love
           building responsive and user-friendly websites.
         </p>
