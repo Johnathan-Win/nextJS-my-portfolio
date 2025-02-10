@@ -1,4 +1,5 @@
 "use client";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 const Home = () => {
   return (

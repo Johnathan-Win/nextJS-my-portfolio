@@ -6,16 +6,15 @@ const ProjectPage = () => {
     {
       title: 'Meeting Room Booking',
       description: 'A modern web application built using PHP and Oracle Server and mdbootstrap, featuring a responsive design and dynamic content.[username:6511130055,password:1]',
-      imageUrl: 'img_projects/m_1.png', // Replace with actual image URL
-      link: 'http://203.188.54.9/~u6511130055/cbt/index.php', // Replace with actual project link
+      imageUrl: 'img_projects/p_1.png', 
+      link: 'http://203.188.54.9/~u6511130055/cbt/index.php',
     },
     {
       title: 'Overview Subject Linux Management',
       description: 'An e-commerce platform developed using React and Node.js, with secure payment integration and real-time notifications.',
-      imageUrl: 'img_projects/p_2.png', // Replace with actual image URL
-      link: 'https://miic1325-lab08.web.app/', // Replace with actual project link
+      imageUrl: 'img_projects/p_2.png',
+      link: 'https://miic1325-lab08.web.app/',
     },
-    // Add more projects as needed
   ];
 
   return (
